@@ -16,5 +16,9 @@
       
   </body>
 </html>
-<img src="square-gradient-background-png.png">
+
+        egui::Image::new(egui::include_image!("../assets/icon.png")).paint_at(ui, ui.ctx().screen_rect());
+egui::CentralPanel::default().show(&gui.platform.context(), |ui| {
+            ui.image(splash, gui.platform.context().screen_rect().size());
+        });
   
