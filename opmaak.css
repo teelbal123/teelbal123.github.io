@@ -8,7 +8,7 @@ ul {
 
     overflow: hidden;
 
-    background-color: ##4287f5;
+    background-color: #333;
 
 }
 
@@ -22,7 +22,7 @@ li a {
 
     display: block;
 
-    color: rgb(255, 255, 255);
+    color: white;
 
     text-align: center;
 
@@ -36,7 +36,7 @@ li a {
 
 li a:hover {
 
-    background-color: #77a676;
+    background-color: #111;
 
 }
 
